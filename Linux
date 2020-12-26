@@ -1,0 +1,15 @@
+Open your Terminal window, navigate to your Downloads folder and list all the files:
+
+$ cd Downloads
+$ ls -l
+  uPyCraft_linux_V1.X
+You should have a similar file (uPyCraft_linux_V1.X) in your Downloads folder. You need to make that file executable with the following command:
+
+$ chmod +x uPyCraft_linux_V1.X
+Then, to open/run the uPyCraft IDE software, type the next command:
+
+$ ./uPyCraft_linux_V1.X
+
+
+We’ll be using this software to flash our ESP based boards with MicroPython firmware as well as to program the boards.
+
